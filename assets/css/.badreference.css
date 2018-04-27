@@ -1,0 +1,121 @@
+/*This is a mess. Only use this as a reference 
+to how css can interact with the html*/
+
+body{
+    background: #eee;
+    margin: 0;
+    min-width: 960px;
+}
+
+.container{
+    height: 100%;
+}
+
+.topbar{
+    padding: 40px;
+    background: #fff;
+    margin-bottom: 20px;
+    border: solid;
+    border-width: 0 0 1px 0;
+    border-color: rgb(179, 178, 178);
+
+}
+
+.namebar{
+    padding: 20px;
+    background: #4aaaa5;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    font-size: 30px;
+    height: 40px;
+    text-align: center;
+}
+
+.border-f{
+    padding: 1px;
+    background: #4aaaa5;
+    position: relative;
+    right: 21px;
+    height: 78.5px;
+    bottom: 55px;
+    width: 1px;
+}
+
+
+.navlinks{
+    position: relative;
+    padding: 30px 0px 30px 30px;
+    bottom: 101px;
+    float: right;
+    left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #999;
+}
+
+h1{
+    color: #4aaaa5;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.overlord{
+    background: #fff;
+    width: 938px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px 20px 0px;
+    border: solid;
+    border-color: rgb(216, 212, 212);
+    border-width: 1px;
+}
+
+.mypic{
+    width: 167px;
+    height: auto;
+    float: left;
+    margin: 20px 20px 20px 0px;
+    padding-left: 20px;
+}
+
+p{
+    line-height: 2;
+    padding-left: 20px;
+}
+
+.pstart{
+    margin: 20px;
+    position: relative;
+}
+
+.float-fix{
+    clear: both;
+}
+
+/*there is an issue with positioning when
+entering dev tools on chrome when it's positioned
+at bottom*/
+
+.footer{
+    background: rgb(92, 91, 91);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #eee;
+    min-width: 960px;
+    width: 100%;
+    padding-top: 45px; 
+    border-top: 8px solid #4aaaa5;
+    clear: both;
+}
+
+.more-grey{
+    border: none;
+    height: 2px;
+    color: rgb(179, 178, 178);
+    background: rgb(179, 178, 178);
+    margin-left: 20px;
+}
