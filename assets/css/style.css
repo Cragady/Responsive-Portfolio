@@ -118,6 +118,11 @@ nav a:first-child{
     margin-right: 25px;
 }
 
+.p-image-two{
+    width: 270px;
+    height: 140px;
+}
+
 /* Sidebar, was commented out in html as of writing this */
 .sidebar{
     background: #ffffff;
